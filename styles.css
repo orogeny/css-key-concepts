@@ -84,3 +84,8 @@ blockquote {
 blockquote em,strong {
     letter-spacing: 1px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
