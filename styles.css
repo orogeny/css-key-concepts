@@ -94,5 +94,9 @@ img {
 }
 
 main {
-    
+    margin-top: 32px;
+}
+
+address {
+    margin-top: 16px;
 }
