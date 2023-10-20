@@ -75,6 +75,32 @@ nav a:active {
     text-decoration: none;
 }
 
+[for="site-search"] {
+    margin-right: 16px;
+}
+
+input[type=search] {
+    margin-right: 16px;
+    padding: 7px 2px;
+    font-size: 1.0625rem;
+
+    border-radius: 6px;
+}
+
+button {
+    color: rgb(33, 43, 50);
+    background-color:rgb(255, 235, 59);
+
+    font-size: 1.0625rem;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 8px 24px;
+
+    display: inline-block;    
+}
+
 blockquote {
     margin: 20px 0;
     border: solid 4px red;
