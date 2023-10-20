@@ -81,7 +81,6 @@ blockquote {
     padding: 16px 32px;
     color: rgb(33, 43, 50);
     background-color: white;
-    /* background-color: rgb(1, 114, 206); */
 }
 
 blockquote em,strong {
@@ -100,3 +99,50 @@ main {
 address {
     margin-top: 16px;
 }
+
+section:last-of-type {
+    margin: 32px 0;
+}
+
+form {
+    padding: 16px;
+    background-color: rgb(1, 114, 206);    
+}
+
+fieldset {
+    padding: 0 24px;
+
+    border: 1px solid rgb(255, 235, 59);
+    border-radius: 6px;
+}
+
+fieldset div {
+    margin: 12px 360px 12px 0;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+fieldset input {
+    padding: 4px;
+    border: 0;
+    border-radius: 6px;
+
+    font-size: 1.125rem;
+}
+
+input[type=submit] {
+    color: rgb(33, 43, 50);
+    background-color:rgb(255, 235, 59);
+
+    font-size: 1.0625rem;
+
+    border: none;
+    border-radius: 6px;
+
+    margin: 8px 200px 16px auto;
+    padding: 16px 24px;
+
+    display: inline-block;    
+}
+
