@@ -76,9 +76,12 @@ nav a:active {
 }
 
 blockquote {
-    margin: 20px 0;
-    padding: 16px 48px;
-    background-color: rgb(1, 114, 206);
+    margin: 20px 48px;
+    border: solid 4px red;
+    padding: 16px 32px;
+    color: rgb(33, 43, 50);
+    background-color: white;
+    /* background-color: rgb(1, 114, 206); */
 }
 
 blockquote em,strong {
